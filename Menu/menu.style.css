@@ -1,0 +1,86 @@
+*,
+*,::after,
+*;::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.main-menu{
+    text-align: center;
+}
+.main-menu li{
+    display: inline-block;
+    margin: -5px;
+    text-align: center;
+}
+.list{
+    padding: 0;
+    margin: 0;
+}
+.main-menu li a{
+    display: inline-block;
+    padding: 10px 130px;
+    background-color: cornflowerblue;
+    color: #fff;
+    border: 1px solid red;
+    text-decoration: none;
+    margin: 0;
+}
+.main-menu li a:hover{
+    background-color: cyan;
+    transition: .3s;
+}
+
+
+.container {
+    display: flex;
+    background-color: hsl(115, 89%, 46%);
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 900px;
+    border-radius: 10px;
+    padding: 2em;
+    margin: 3px;
+}
+.one {
+    padding: 2em;
+    background-color: cyan;
+    display: inline-block;
+    border-radius: 20px;
+    border-width: 10px;
+    border-style: double;
+    border-color: blue;
+    margin: 10px;
+}
+.two {
+    padding: 2em;
+    background-color: red;
+    display: inline-block;
+    border-radius: 20px;
+    border-width: 10px;
+    border-style: double;
+    border-color: blue;
+    margin: 10px;
+}
+.three {
+    padding: 2em;
+    background-color: purple;
+    display: inline-block;
+    border-radius: 20px;
+    border-width: 10px;
+    border-style: double;
+    border-color: blue;
+    margin: 10px;
+}
+.four {
+    padding: 2em;
+    background-color: green;
+    display: inline-block;
+    border-radius: 20px;
+    border-width: 10px;
+    border-style: double;
+    border-color: blue;
+    margin: 10px;
+}
